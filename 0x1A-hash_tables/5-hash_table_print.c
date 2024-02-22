@@ -3,12 +3,12 @@
 /**
  * hash_table_print - prints a hash table.
  * @ht: Hash table.
- * Return:  return with void.
+ * Return: return with void.
  */
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i = 0;
-	int flag = 0;
+	int num = 0;
 	hash_node_t *current;
 
 	if (!ht)
@@ -20,20 +20,20 @@ void hash_table_print(const hash_table_t *ht)
 		{
 			if (!ht->array[i]->next)
 			{
-				if (flag)
+				if (num)
 					printf(", ");
 				printf("'%s': '%s'", ht->array[i]->key, ht->array[i]->value);
-				flag = 1;
+				num = 1;
 			}
 			else
 			{
 				current = ht->array[i];
 				while (current)
 				{
-					if (flag)
+					if (num)
 						printf(", ");
 					printf("'%s': '%s'", current->key, current->value);
-					flag = 1;
+					num = 1;
 					current = current->next;
 				}
 			}
