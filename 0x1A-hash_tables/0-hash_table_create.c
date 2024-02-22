@@ -2,7 +2,7 @@
 
 /**
  * hash_table_create - creates a hash table.
- * @size: size of the array.
+ * @size: size of array.
  * Return: pointer to reated hash table.
  */
 hash_table_t *hash_table_create(unsigned long int size)
