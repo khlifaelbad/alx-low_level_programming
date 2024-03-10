@@ -1,33 +1,48 @@
-#include "main.h"
+ #include "main.h"
+
 /**
- * jack_bauer - func that prints every minute of the day of Jack Bauer, starti
- * n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
- * and resets mins
- * Return: 0
+ * jack_bauer: prints every minute of the day of Jack Bauer.
+ * Description: start with 00:00 to 23:59.
+ * Return: Always with 0.
  */
 void jack_bauer(void)
 {
-	int hours = 0;
-	int minutes = 0;
-	int hours_remainder;
-	int mins_remainder;
+int num1, num2, num3, num4;
 
-	while (hours <= 23)
-	{
-	while (minutes <= 59)
-	{
-	mins_remainder = minutes % 10;
-	hours_remainder = hours % 10;
-	_putchar(hours / 10 + '0');
-	_putchar(hours_remainder + '0');
+for (num1 = 0; num1 <= 0; num1++)
+{
+for (num2 = num1; num2 <= 0; num2++)
+{
+for (num3 = 0; num3 <= 0; num3++)
+{
+for (num4 = num3; num4 <= 9; num4++)
+{
+	_putchar(num1 + '0');
+	_putchar(num2 + '0');
 	_putchar(':');
-	_putchar(minutes / 10 + '0');
-	_putchar(mins_remainder + '0');
-	minutes++;
+	_putchar(num3 + '0');
+	_putchar(num4 + '0');
 	_putchar('\n');
-	}
-	hours++;
-	minutes = 0;
+}
+for (num1 = 2; num1 <= 2; num1++)
+{
+for (num2 = 3; num2 <= 3 ; num2++)
+{
+for (num3 = 5; num3 <= 5; num3++)
+{
+for (num4 = 0; num4 <= 9; num4++)
+{
+_putchar(num1 + '0');
+_putchar(num2 + '0');
+_putchar(':');
+_putchar(num3 + '0');
+_putchar(num4 + '0');
+_putchar('\n');
 }
 }
-
+}
+}
+}
+}
+}
+}
