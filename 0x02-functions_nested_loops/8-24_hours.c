@@ -1,48 +1,32 @@
- #include "main.h"
+#include "main.h"
 
 /**
- * jack_bauer: prints every minute of the day of Jack Bauer.
- * Description: start with 00:00 to 23:59.
- * Return: Always with 0.
+ * jack_bauer - func that prints every minute of the day of Jack Bauer, starti
+ * n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
+ * and resets mins
+ * Return: 0
  */
+
 void jack_bauer(void)
 {
-int num1, num2, num3, num4;
+        int time, hour, minute;
+        int first_min, second_min;
+        int num1, num2;
 
-for (num1 = 0; num1 <= 0; num1++)
-{
-for (num2 = num1; num2 <= 0; num2++)
-{
-for (num3 = 0; num3 <= 0; num3++)
-{
-for (num4 = num3; num4 <= 9; num4++)
-{
-	_putchar(num1 + '0');
-	_putchar(num2 + '0');
-	_putchar(':');
-	_putchar(num3 + '0');
-	_putchar(num4 + '0');
-	_putchar('\n');
-}
-for (num1 = 2; num1 <= 2; num1++)
-{
-for (num2 = 3; num2 <= 3 ; num2++)
-{
-for (num3 = 5; num3 <= 5; num3++)
-{
-for (num4 = 0; num4 <= 9; num4++)
-{
-_putchar(num1 + '0');
-_putchar(num2 + '0');
-_putchar(':');
-_putchar(num3 + '0');
-_putchar(num4 + '0');
-_putchar('\n');
-}
-}
-}
-}
-}
-}
-}
+        for (time = 0; time < 24 * 60; ++time)
+        {
+        hour = time / 60;
+        minute = time % 60;
+        if ((first_min = 0 && second_min < 4) || (first_min < 2))
+        first_min = hour / 10;
+        second_min = hour % 10;
+        num1 = minute / 10;
+        num2 = minute % 10;
+        _putchar(first_min + '0');
+        _putchar(second_min + '0');
+        _putchar(':');
+        _putchar(num1 + '0');
+        _putchar(num2 + '0');
+        _putchar('\n');
+        }
 }
