@@ -1,38 +1,39 @@
 #include "main.h"
 
 /**
- * print_times_table - a func that prints n time table 
- * and starting with 0.
- * @n: parameter of func print_times_table.
- * Return: return without value.
+ * print_times_table -  a func that prints the n times table
+ * starting with 0.
+ * @n: that print value of time table.
  */
 
 void print_times_table(int n)
 {
-	int row, colmun, prod;
+	int rows, colmun, mult;
 
 	if (n <= 15 && n >= 0)
 	{
-		for (colmun = 0; colmun <= n; colmun++)
+		for (colmun = 0 ; colmun <= n; colmun++)
 		{
 			_putchar('0');
-			for (row = 1; row <= n; row++)
+			for (rows = 1; rows <= n; rows++)
 			{
-				_putchar(','); 
+				mult = rows * colmun;
+				_putchar(',');
 				_putchar(' ');
-				prod = row * colmun;
-				if (prod <= 9)
+				if (mult <= 9)
 					_putchar(' ');
-				if (prod <= 99)
+				if (mult <= 99)
 					_putchar(' ');
-				if (prod >= 100)
+				if (mult >= 100)
 				{
-					_putchar((prod / 100) + '0');
-					_putchar((prod / 100) % 10 + '0');
+					_putchar((mult / 100) + '0');
+					_putchar((mult / 10) % 10 + '0');
 				}
-				else if ( prod <= 99 && prod >= 10)
-					_putchar((prod / 10) + '0');
-				_putchar((prod % 10) + '0');
+				else if (mult >= 10 && mult <= 99)
+				{
+					_putchar((mult / 10) + '0');
+				}
+				_putchar((mult % 10) + '0');
 			}
 		_putchar('\n');
 		}
