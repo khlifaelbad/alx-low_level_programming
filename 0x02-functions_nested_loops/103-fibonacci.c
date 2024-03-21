@@ -11,9 +11,9 @@
 
 int main(void)
 {
-	int first = 0;
-	int second = 1;
-	int next = 0, sum;
+	unsigned long  = 0;
+	unsigned long second = 1, next = 0;
+	int sum;
 
 	for (sum = 0; sum < 4000000; sum++)
 	{
@@ -23,6 +23,6 @@ int main(void)
 		if (next % 2 == 0)
 			sum += next;
 	}
-	printf("%d\n", sum);
+	printf("lu\n", sum);
 	return (0);
 }
