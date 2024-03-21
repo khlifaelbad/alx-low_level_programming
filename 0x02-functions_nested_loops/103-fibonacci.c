@@ -13,21 +13,16 @@ int main(void)
 {
 	int first = 0,
 	int second = 1,
-	int next, i;
+	int next = 0, sum = 0;
 
-	for (i = 0; i < 99; i++)
+	for (sum = 0; sum < 4000000; sum++)
 	{
 		next = first + second;
-		printf("%d", next);
 		first = second;
 		second = next;
-		if (i == 9)
-			break;
-		if  (next == 89)
-			printf("\n");
-		else
-			printf(", ");
-	printf("\n");
+		if (next % 2 == 0)
+			sum += next;
 	}
+	printf("%d\n", sum);
 	return (0);
 }
