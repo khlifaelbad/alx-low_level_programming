@@ -11,9 +11,9 @@
 
 int main(void)
 {
-	int first = 0,
-	int second = 1,
-	int next = 0, sum = 0;
+	int first = 0;
+	int second = 1;
+	int next = 0, sum;
 
 	for (sum = 0; sum < 4000000; sum++)
 	{
