@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_number: its a func prints an integer.
- * @n: its a parameter who to be print integer.
- * Return: nothing to return.
+ * print_number - its a func prints an integer.
+ * @n: integer to be print.
  */
 
 void print_number(int n)
