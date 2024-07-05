@@ -5,6 +5,7 @@
  * @n: its a parameter who to be print integer.
  * Return: nothing to return.
  */
+
 void print_number(int n)
 {
 	unsigned int num;
