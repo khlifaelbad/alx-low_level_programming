@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_number - its a func prints an integer.
- * @n: integer to be print.
+ * print_number: its a func prints an integer.
+ * @n: its a parameter who to be print integer.
+ * Return: nothing to return.
  */
-
 void print_number(int n)
 {
 	unsigned int num;
