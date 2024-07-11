@@ -94,7 +94,7 @@ functions written in the project.
     * If result can be stored in the buffer, returns a pointer to the result.
     * If result cannot be stored in the buffer, returns `0`.
 
-* **12. Noise is a buffer, more effective than cubicles or booth walls**
+* **12. Noise is a buffer, more effective than... cubicles or booth walls**
   * [103-print_buffer.c](./103-print_buffer.c): C function that prints the content of an
   inputted number of bytes from a buffer.
     * Prints 10 bytes per line.
