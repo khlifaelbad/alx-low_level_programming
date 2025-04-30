@@ -30,7 +30,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 # Requirements
 
 ## General
-- Allowed editors: <span style="color:orange"> vi, vim, emacs </span>
+- Allowed editors: <span style="color:red">vi, vim, emacs</span>
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
 - A README.md file, at the root of the folder of the project is mandatory
@@ -45,3 +45,5 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Don’t forget to push your header file
 - You are not allowed to use any kind of loops
 - You are not allowed to use static variables
+
+
