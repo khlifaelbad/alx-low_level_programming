@@ -1,5 +1,14 @@
 # 0x08. C - Recursion
 
+ ____     ___    __  __ __  ____    _____ ____  __ __    ___ 
+|    \   /  _]  /  ]|  |  ||    \  / ___/|    ||  |  |  /  _]
+|  D  ) /  [_  /  / |  |  ||  D  )(   \_  |  | |  |  | /  [_ 
+|    / |    _]/  /  |  |  ||    /  \__  | |  | |  |  ||    _]
+|    \ |   [_/   \_ |  :  ||    \  /  \ | |  | |  :  ||   [_ 
+|  .  \|     \     ||     ||  .  \ \    | |  |  \   / |     |
+|__|\_||_____|\____| \__,_||__|\_|  \___||____|  \_/  |_____|
+                                                             
+
 ## Description
 
 This project focuses on **recursion** in C programming. Recursion is a method where a function calls itself to solve a problem. The goal of this project is to understand how recursion works, when to use it, and how to implement it effectively in different scenarios.
