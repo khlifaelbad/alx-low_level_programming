@@ -1,4 +1,4 @@
-# 0x08. C - Recursion
+# C - Recursion
 
 ![image](https://github.com/user-attachments/assets/07e65bd7-82e9-423d-aaf7-442e83427c60)
 
