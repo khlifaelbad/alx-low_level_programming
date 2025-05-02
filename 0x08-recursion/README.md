@@ -48,9 +48,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 # Quiz questions
 ## Question #0:
-```What does this code print?
+What does this code print?
 
-void print(int nb)
+```void print(int nb)
 {
     printf("%d", nb);
     nb --;
@@ -67,6 +67,29 @@ int main(void)
 }
 
 - [ ] 210
-- [x] **21**
+- [x] 21
 - [ ] 12
 - [ ] 012
+
+## Question #1:
+What does this code print?
+```int print(int nb)
+{
+    if (nb < 0) 
+    {
+        return (0);
+    }
+    printf("%d", nb + print(nb - 1));
+    nb --;
+    return (nb);
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+
+- [ ] 01234568
+- [x] 00246
+- [ ] 64200
