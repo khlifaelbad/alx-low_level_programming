@@ -11,7 +11,7 @@ This project focuses on **recursion** in C programming. Recursion is a method wh
  Read or watch
 - [0x08. Recursion, introduction](https://intranet.alxswe.com/rltoken/dzZB83Hm3lO7dScjhebAxw)
 - [What on Earth is Recursion?](https://intranet.alxswe.com/rltoken/xYjKl3024oN58Bi_621_vQ)
-- [C - Recursion]
+- [C - Recursion](https://intranet.alxswe.com/rltoken/u4ojc5CZpf4qiuQvmXCiOA)
 - [C Programming Tutorial 85, Recursion pt.1](https://intranet.alxswe.com/rltoken/Wv-wffgpXelN9ZTrbmiOyA)
 - [C Programming Tutorial 86, Recursion pt.2](https://intranet.alxswe.com/rltoken/7GVdI-KT-M1vOIzwEjSahQ)
 
@@ -41,9 +41,32 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - You are allowed to use **_putchar**
 - You don’t have to push **_putchar.c**, we will use our file. If you do it won’t be taken into account
 - In the following examples, the **main.c** files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own **main.c** files at compilation. Our **main.c** files might be different from the one shown in the examples
-- The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called **main.h**
+- The prototypes of all your functions and the prototype of the function **_putchar** should be included in your header file called **main.h**
 - Don’t forget to push your header file
 - You are not allowed to use any kind of loops
 - You are not allowed to use **static** variables
 
+# Quiz questions
+## Question #0:
+```What does this code print?
 
+void print(int nb)
+{
+    printf("%d", nb);
+    nb --;
+    if (nb > 0) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(2);
+    return (0);
+}
+
+- [] 210
+- [x] 21
+- [] 12
+- [] 012
