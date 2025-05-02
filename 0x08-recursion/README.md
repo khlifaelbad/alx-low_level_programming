@@ -50,7 +50,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Question #0:
 What does this code print?
 
-``
+```
 void print(int nb)
 {
     printf("%d", nb);
@@ -66,7 +66,7 @@ int main(void)
     print(2);
     return (0);
 }
-``
+```
 - [ ] 210
 - [x] 21
 - [ ] 12
