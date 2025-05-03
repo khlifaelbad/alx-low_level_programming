@@ -99,3 +99,108 @@ int main(void)
 - [ ] 01234568
 - [x] 00246
 - [ ] 64200
+
+## Question #2:
+What does this code print?
+```
+void print(int nb)
+{
+    printf("%d", nb);
+    nb ++;
+    if (nb < 10) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+```
+- [x] 456789
+- [ ] 345678910
+- [ ] 109876543
+- [ ] 987654
+
+## Question #3:
+What does this code print?
+```
+void print(int nb)
+{
+    if (nb < 0) 
+    {
+        return;
+    }
+    printf("%d", nb);
+    nb --;
+    print(nb);
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+```
+- [ ] 4321
+- [ ] 1234
+- [x] 43210
+- [ ] 01234
+
+## Question #4:
+What does this code print?
+```
+void print(int nb)
+{
+    printf("%d", nb);
+    -- nb;
+    if (nb > 0) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+```
+- [ ] 3210
+- [ ] 321
+- [ ] 43210
+- [x] 4321
+---
+# Tasks
+### 0.**She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget**
+
+Write a function that prints a string, followed by a new line.
+- Prototype: **void _puts_recursion(char *s)**;
+***FYI***: The standard library provides a similar function: **puts**. Run **man puts** to learn more.
+```
+julien@ubuntu:~/0x08. Recursion$ cat 0-main.c
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    _puts_recursion("Puts with recursion");
+    return (0);
+}
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-puts_recursion.c -o 0-puts_recursion
+julien@ubuntu:~/0x08. Recursion$ ./0-puts_recursion 
+Puts with recursion
+julien@ubuntu:~/0x08. Recursion$ 
+```
+**Repo:**
+- GitHub repository: **alx-low_level_programming**
+- Directory: **0x08-recursion**
+- File: **0-puts_recursion.c**
+---
+
