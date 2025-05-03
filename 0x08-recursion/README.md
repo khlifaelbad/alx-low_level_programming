@@ -258,9 +258,9 @@ julien@ubuntu:~/0x08. Recursion$ ./2-strlen_recursion
 julien@ubuntu:~/0x08. Recursion$ 
 ```
 **Repo**
-GitHub repository: **alx-low_level_programming**
-Directory: **0x08-recursion**
-File: **2-strlen_recursion.c**
+- GitHub repository: **alx-low_level_programming**
+- Directory: **0x08-recursion**
+- File: **2-strlen_recursion.c**
 
 ---
 ## 3. **You mustn't be afraid to dream a little bigger, darling**
