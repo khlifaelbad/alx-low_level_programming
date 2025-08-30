@@ -1,20 +1,20 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * _puts_recursion - its a function that prints a string.
+ * _puts_recursion - that a function put string.
  *
- * @s: its a char to be printed
- * Return: nothing to return.
+ * @s: its a string to be printed.
+ *
+ * Return: Nothing to be returned.
  */
-void _puts_recursion(char *s)
+void	_puts_recursion(char *s)
 {
-	if (*s != '\0')
+	if (*s == '\0')
 	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
+		write(1, "\n", 1);
+		return;
 	}
-	else
-	{
-	_putchar('\n');
-	}
+	write(1, s, 1);
+	_puts_recursion(s + 1);
 }

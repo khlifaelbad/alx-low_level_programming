@@ -1,21 +1,20 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * _print_rev_recursion - a function that prints a string in reverse.
+ * _print_rev_recursion - that a func rev string.
  *
- * @s: its a string to be printed in reverse
- * Return: nothing to return.
+ * @s: its a string to be reversed.
+ *
+ * return: Nothing to be returned.
  */
-void _print_rev_recursion(char *s)
+void	_print_rev_recursion(char *s)
 {
-	/* base case for check end of string */
+	/* Base case */
 	if (*s == '\0')
-	{
-		return; /* back to stack reversely*/
-	}
-	/* call and recall the function recursive go forward */
+		return;
+	/* first charac to '\0' there were stop will print */
 	_print_rev_recursion(s + 1);
-	/* print in reverse (after calls return) */
-	_putchar(*s);
+	/* first char ti last then go backtracking printed as forwardback*/
+	write(1, s, 1);
 }
-

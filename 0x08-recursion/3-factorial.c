@@ -1,21 +1,18 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * factorial - Its a func that returns the factorial of a given number.
+ * factorial - its a func that given factorial of number.
  *
- * @n: Its a represent a number of factorial.
+ * @n: its a num to be factorial.
  *
- * Return: the number factorial of num.
+ * Return: return factorial of number n.
  */
-int factorial(int n)
+int	factorial(int n)
 {
-	if (n < 0)
-	{
-		return (-1); /* error: negative nums don't have factorials */
-	}
 	if (n == 0)
-	{
-		return (1); /* Base case: factorial 0 is 1 */
-	}
-	return (n * factorial(n - 1)); /* recursive step by calculate factorial */
+		return (1);
+	if (n < 0)
+		return (-1);
+	return (n * factorial(n - 1));
 }
