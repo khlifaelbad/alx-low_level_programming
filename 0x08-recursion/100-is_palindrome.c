@@ -9,12 +9,12 @@
  */
 int	ft_strlen(char *s)
 {
-	if(*s == '\0')
+	if (*s == '\0')
 		return (0);
 	return (1 + ft_strlen(s + 1));
 }
 /**
- * is_palindrome_helper - recursive func that compares two char of string.
+ * is_palindrome_helper - recursive func that compares two char of str.
  *
  * @s: pointer to the string being checked.
  * @i: index from start of the string.
@@ -25,6 +25,7 @@ int	ft_strlen(char *s)
  */
 int	is_palindrome_helper(char *s, int i, int j)
 {
+	/* comapres first index with last index until middle index */
 	if (i >= j)
 		return (1);
 	/*compare first charcter to the last character*/
@@ -44,8 +45,10 @@ int	is_palindrome(char *s)
 	int	j;
 
 	j = 0;
+	/* check empty string that palindrome */
 	if (*s == '\0')
 		return (1);
+	/* call our recursive strlen*/
 	j = ft_strlen(s);
 	return (is_palindrome_helper(s, 0, j - 1));
 }
