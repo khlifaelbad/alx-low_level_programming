@@ -81,6 +81,9 @@ abcdefghijklmnopqrstuvwxyzubuntu
 - [Using A “C” Library In A Program](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
 - [What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44](https://www.youtube.com/watch?v=eW5he5uFBNM)
 ---
+# General
+- What is a static library, how does it work, how to create one, and how to use it
+- Basic usage of  **ar**, *ranlib*, **nm**
 #  Requirements
 ## C
 - Allowed editors: **vi**, **vim**, **emacs**
