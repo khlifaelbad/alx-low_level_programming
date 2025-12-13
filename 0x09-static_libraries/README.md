@@ -2,7 +2,7 @@
 
 ![image](https://media.licdn.com/dms/image/C4D12AQH84dt6FndegA/article-cover_image-shrink_600_2000/0/1645845713995?e=2147483647&v=beta&t=wdpr623LvZK_7cK5DsLbwEqnJUuT4iSfQ3LUoc_q8Vk)
 
-### Concepts
+### 🟣 Concepts
 For this project, we expect you to look at this concept:
 - C static libraries
 ## Build your own C static library
