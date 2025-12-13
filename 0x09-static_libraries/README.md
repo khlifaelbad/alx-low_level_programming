@@ -6,6 +6,7 @@
 For this project, we expect you to look at this concept:
 - C static libraries
 ## Build your own C static library
+```
 - ubuntu@ip-172-31-63-244:~/julien$ l
 total 44
 drwxrwxr-x 2 ubuntu ubuntu 4096 Mar 25 02:47 .
@@ -65,10 +66,11 @@ collect2: error: ld returned 1 exit status
 - ubuntu@ip-172-31-63-244:~/julien$ ./alpha
 abcdefghijklmnopqrstuvwxyzubuntu
 - ubuntu@ip-172-31-63-244:~/julien$
+```
 ---
 ## Read more
-. man **gcc**
-. man **ar**
-. man **ranlib**
-. Google
+- man **gcc**
+- man **ar**
+- man **ranlib**
+- Google
 
