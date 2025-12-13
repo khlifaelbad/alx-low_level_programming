@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 ar rcs liball.a *.o
