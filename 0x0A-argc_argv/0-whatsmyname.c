@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * main -  a program that prints its name
  *
@@ -8,7 +8,8 @@
  *
  * Return: Always 0.
  */
-int	main(int argc, char *argv[])
+
+int	main(int argc __attribute__((unused)), char *argv[])
 {
 	/*char *ptr;*/
 
@@ -17,12 +18,23 @@ int	main(int argc, char *argv[])
 	/*while (*ptr)*/
 		/*_putchar(*ptr++);*/
 	/*_putchar('\n');*/
-	int	i;
-
-	i = 0;
-	(void) argc;
-	while (argv[0][i] != '\0')
-		_putchar(argv[0][i++]);
+	print_str(argv[0]);
 	_putchar('\n');
 	return (0);
+}
+
+/**
+ * print_str - that a func a print string.
+ *
+ * @str: its a string to be printed.
+ *
+ * Return: nothing to return.
+ */
+void print_str(char *str)
+{
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
 }
