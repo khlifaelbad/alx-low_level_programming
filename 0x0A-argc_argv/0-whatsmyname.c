@@ -1,5 +1,6 @@
 #include "main.h"
 
+void print_str(char *str);
 /**
  * main -  a program that prints its name
  *
