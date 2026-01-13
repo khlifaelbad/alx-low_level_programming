@@ -1,4 +1,5 @@
 # 0x0A. C - argc, argv
+<img width="860" height="573" alt="image" src="https://github.com/user-attachments/assets/751438e7-5ae5-4085-8ff5-056b5eb6e454" />
 
 ## Resources
 ### Read or Watch
