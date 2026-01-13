@@ -11,7 +11,8 @@
 - [Command Line Arguments (Argc & Argv) in C Programming](https://www.youtube.com/watch?v=iFMrxVWiTUs)
 
 ## Learning Objectives
-- ![#f03c15] At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:  `#f03c15`
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
+
 ## General
 - How to use arguments passed to your program
 - What are two prototypes of *main* that you know of, and in which case do you use one or the other
