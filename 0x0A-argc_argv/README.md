@@ -44,7 +44,7 @@ In the following command, what is argv[2]?
 ---
 $ ./argv "My School" "is fun"
 ---
-[] My
+|x| My
 
 [] My School
 
