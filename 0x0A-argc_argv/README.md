@@ -39,7 +39,7 @@ Your code should use the **Betty** style. It will be checked using **betty-style
 - You are allowed to use the **standard library**.
 
 # Quiz questions
-Question #0
+- ![#f03c15] (Question #0)
 In the following command, what is argv[2]?
 ```
 $ ./argv "My School" "is fun"
