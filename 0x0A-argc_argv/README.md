@@ -1,6 +1,5 @@
 # 0x0A. C - argc, argv
 <img width="860" height="573" alt="image" src="https://github.com/user-attachments/assets/751438e7-5ae5-4085-8ff5-056b5eb6e454" />
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 ## Resources
 ### Read or Watch
 - [Arguments to main](https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html)
@@ -12,8 +11,7 @@
 - [Command Line Arguments (Argc & Argv) in C Programming](https://www.youtube.com/watch?v=iFMrxVWiTUs)
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
-
+- ![#f03c15] At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:  `#f03c15`
 ## General
 - How to use arguments passed to your program
 - What are two prototypes of *main* that you know of, and in which case do you use one or the other
