@@ -4,8 +4,9 @@
  * main - program that prints all arguments it receives.
  *
  * Description: All arguments should be printed, including the first one
- * 		only print one arg per line, ending with a new line
- * @argc: 
+ * only print one arg per line, ending with a new line
+ *
+ * @argc: its represent all arguments of command line
  * @argv: its array an argument line command to be printed
  *
  * Return: Always 0 (Success)
@@ -17,12 +18,11 @@ int	main(int argc, char *argv[])
 
 	i = 0;
 	j = 0;
-	(void) argc;
 	/*while (*(argv+i) != NULL)*/
 	/*{*/
 		/*printf("%s\n", argv[i++]);*/
 	/*}*/
-	while (argv[i] != NULL)
+	while (argc > i)
 	{
 		j = 0;
 		while (argv[i][j] != '\0')
