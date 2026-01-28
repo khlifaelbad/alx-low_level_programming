@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 void print_nums(int num);
 /**
@@ -22,7 +21,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
  */
 void print_nums(int num)
 {
-	if (num > 9)
+	if (num >= 10)
 		print_nums(num / 10);
 	_putchar((num % 10) + '0');
 }
