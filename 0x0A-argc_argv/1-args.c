@@ -12,10 +12,15 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
+<<<<<<< HEAD
 	printf("%d\n", argc - 1);
 	/*putchar((argc - 1) + '0');*/
 	/*print_nums(argc - 1);*/
 	/*_putchar('\n');*/
+=======
+	print_nums(argc - 1);
+	_putchar('\n');
+>>>>>>> f9ef9f5 (program that prints the numb)
 	return (0);
 }
 /**
