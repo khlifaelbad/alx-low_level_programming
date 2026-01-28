@@ -20,10 +20,8 @@ void print_nums(int num)
  *
  * Return: 0 on success
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	(void) *argv;
-
 	/*printf("%d\n", argc -1);*/
 	/*putchar((argc - 1) + '0');*/
 	print_nums(argc - 1);
