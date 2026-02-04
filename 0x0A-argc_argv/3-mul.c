@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	i = 1;
 	res = 1;
-	if (argc == 1)
+	if (argc < 3 || argc > 3)
 	{
 		write(1, "Error\n", 6);
 		return (1);
