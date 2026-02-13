@@ -5,7 +5,7 @@ void putnum(long n);
 /**
  * main - that a func prints result addition numbers.
  *
- * Description:If no number is passed to the program, print 0
+ * Description: If no number is passed to the program, print 0
  * by new line
  * If one of the number contains symbols that are not digits, print Error
  * followed by a new line, and return 1
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 	return  (0);
 }
 /**
- * putnum - that a func prints numbers digits
+ * putnum - a func prints numbers digits
  *
  * Description: print numbers by use recursive
  * and _putchar
