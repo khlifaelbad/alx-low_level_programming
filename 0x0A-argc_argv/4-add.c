@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	i = 1;
 	res = 0;
-	if (argc  <= 1)
+	if (argc <= 1)
 	{
 		write(1, "0\n", 2);
 		return (0);
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		}
 		if (argv[i][j] == '\0')
 		{
-			write(2, "Error\n", 6);
+			write(1, "Error\n", 6);
 			return (1);
 		}
 		while (argv[i][j] != '\0')
