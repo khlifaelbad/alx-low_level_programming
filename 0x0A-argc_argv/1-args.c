@@ -1,6 +1,6 @@
 #include "main.h"
 
-void print_nums(int num);
+void print_nums(long num);
 /**
  * main - a program that prints number arguments
  *
@@ -9,8 +9,9 @@ void print_nums(int num);
  *
  * Return: 0 on success
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
+	(void) *argv;
 	print_nums(argc - 1);
 	_putchar('\n');
 	return (0);
@@ -22,7 +23,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
  *
  * return: Nothing to return
  */
-void print_nums(int num)
+void print_nums(long num)
 {
 	if (num > 9)
 	{
