@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 void print_nums(long num);
 /**
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
 {
 	(void) *argv;
 	print_nums(argc - 1);
-	_putchar('\n');
+	write(1, "\n", 1);
 	return (0);
 }
 /**
