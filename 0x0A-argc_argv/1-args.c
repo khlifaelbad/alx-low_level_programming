@@ -11,10 +11,8 @@
  *
  * Return: 0 on success
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	(void) *argv;
-
 	printf("%d\n", argc - 1);
 	/*print_nums(argc - 1);*/
 	/*write(1, "\n", 1);*/
