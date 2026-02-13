@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 		write(1, "0\n", 2);
 		return (0);
 	}
-	while (argc > i)
+	while (i < argc)
 	{
 		j = 0;
 		num = 0;
@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
-				write(2, "Error\n", 6);
+				write(1, "Error\n", 6);
 				return (1);
 			}
 			num = num * 10 + (argv[i][j] - '0');
