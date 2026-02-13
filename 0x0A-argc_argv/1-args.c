@@ -17,11 +17,16 @@ int main(int argc, char *argv[] __attribute__((unused)))
 }
 /**
  * print_nums - that a func prints all digits
+ *
  * @num: its a number to be printed
+ *
+ * return: Nothing to return
  */
 void print_nums(int num)
 {
-	if (num >= 10)
+	if (num > 9)
+	{
 		print_nums(num / 10);
-	_putchar((num % 10) + '0');
+	}
+	_putchar(num % 10 + '0');
 }
